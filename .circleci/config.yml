@@ -14,3 +14,10 @@ jobs:
       - checkout
       - run: echo "A first world" 
       - run: sleep 25
+
+workflows:
+  version: 2
+  one_and_two:
+    jobs:
+      - one
+      - two
