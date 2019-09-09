@@ -19,7 +19,7 @@ jobs:
       - image: circleci/ruby:2.4.1
     steps:
       - checkout
-      - run: echo "A first world"
+      - run: echo "A first world world"
       - attach_workspace:
           # Must be abosolute path or relative path from working_directory
           at: my_workspace
